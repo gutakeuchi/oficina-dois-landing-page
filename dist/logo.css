@@ -1,0 +1,26 @@
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(30, 115, 255, 0.32);
+}
+
+.hero-logo {
+  position: relative;
+  z-index: 1;
+  width: min(82%, 410px);
+  height: auto;
+  display: block;
+  border-radius: 24px;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 24px rgba(26, 126, 255, 0.48));
+}
+
+@media (max-width: 620px) {
+  .hero-logo {
+    width: 88%;
+    border-radius: 18px;
+  }
+}
