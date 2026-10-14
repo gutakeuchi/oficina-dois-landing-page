@@ -40,6 +40,14 @@
   filter: brightness(1.08);
 }
 
+.chips label input {
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
 @media (max-width: 900px) {
   .build-card img.build-visual {
     height: 210px;
